@@ -3,18 +3,20 @@
 # Conceptural Representations
 
 Linear vs. Tree vs. Graph
+Linear structures are a subset of tree structures.
+Tree structures are a subset of graphs.
 
 # Internal Representations
 
 - Linked-List Based
-  - Linear
-  - Tree
-  - Graph
+  - Linear: queues, stacks, linked lists, separate chaining (HashSet, HashMap), deque
+  - Tree: BST, AVL, Red-black, splay, B-tree, M-ary tree
+  - Graph: adjacency list
   
 - Array-List Based
-  - Linear
-  - Tree
-  - Graph
+  - Linear: circular queues, stacks, separate chaining (HashSet, HashMap), closed hashing, 
+  - Tree: B-tree, heap (complete trees), union-find structure (disjoint sets), any tree structures (but will waste a lot of space)
+  - Graph: adjacency matrix
   
  |   |Linear|Tree|Graph|
  |:-:| :-:|:-:|:-:|
@@ -23,9 +25,9 @@ Linear vs. Tree vs. Graph
 
 # Foundamental Operations
 
-- Linear
-- Tree  
-- Graph
+- Linear: add, remove, find, access, sort, merge
+- Tree: add, remove, find, balance (ensuring a bound on the tree height), reducing tree to linear structures (traversal, sort), merge
+- Graph: reducing graph to tree structures (MST, DFS, BFS, Shortest path tree, Spanning tree...), add/remove edges/vretices, merge (trivial), no sorting unless the graph is a DAG (so called topological sort or linearization of graph). 
   
 ## Other Cheatsheets 
 
