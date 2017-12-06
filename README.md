@@ -16,10 +16,15 @@ Linear vs. Tree vs. Graph
   - Tree
   - Graph
   
+ |   |Linear|Tree|Graph|
+ |:-:| :-:|:-:|:-:|
+ |Linked-list| | | |
+ |Array-list| | | |
+
 # Foundamental Operations
 
 - Linear
-- Tree
+- Tree  
 - Graph
   
 ## Other Cheatsheets 
