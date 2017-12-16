@@ -3,8 +3,27 @@
 # Conceptural Representations
 
 - Linear vs. Tree vs. Graph
-- Linear structures are a subset of tree structures.
-- Tree structures are a subset of graphs.
+- Linear structures include
+  - Linked lists
+  - Array lists
+  - They are a subset of tree structures.
+- Tree structures include 
+  - Binary tree
+  - Binary search tree
+  - M-ary tree
+  - Self-balance tree
+    - AVL tree
+    - Red-black tree
+    - splay tree
+  - B-tree
+  - They are a subset of graphs.
+- Graph structures include 
+  - (Un-)Directed graph
+  - (Un-)Weigted graph
+  - Directed Acyclic graph (DAG)
+  - Spare vs Dense graph
+  - Bipartite graph (did not cover this in CS 310)
+  - ... (many more)
 
 # Internal Representations
 
