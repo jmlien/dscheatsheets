@@ -45,23 +45,24 @@
 # Foundamental Operations
 
 - Linear: 
+  - The time complexity of all of these operations depends on if the linear structure is sorted or unordered
   - add, remove
   - find, access
   - sort 
   - merge
-  - Need to consider if the linear structure is sorted vs unordered 
 - Tree: 
+  - The time complexity of all of these operations depends on if the tree is ordered (BST, B-tree) or unordered (binary tree, union-find)
   - reducing tree to linear structures (traversal, sorting)
   - add, remove 
   - find, access
   - balance (ensuring a bound on the tree height)
   - merge 
-  - For all of these operations, you need to consider if the tree is ordered (BST, B-tree) or unordered (binary tree, union-find)
+
 - Graph: 
+  - graph is mostly unordered so there is no sorting, unless the graph is a DAG. For a DAG, one can "topological sort" or "linearize" a graph. 
   - reducing graph to tree structures (MST, DFS, BFS, Shortest path tree, Spanning tree...), 
   - add/remove edges/vretices, 
-  - merge (trivial), 
-  - graph is mostly unordered so no sorting, unless the graph is a DAG (so called topological sort or linearization of graph). 
+  - merge (trivial),  
   
 ## Other Cheatsheets 
 
