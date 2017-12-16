@@ -2,9 +2,9 @@
 
 # Conceptural Representations
 
-Linear vs. Tree vs. Graph
-Linear structures are a subset of tree structures.
-Tree structures are a subset of graphs.
+- Linear vs. Tree vs. Graph
+- Linear structures are a subset of tree structures.
+- Tree structures are a subset of graphs.
 
 # Internal Representations
 
