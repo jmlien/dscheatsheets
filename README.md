@@ -16,6 +16,7 @@
     - Red-black tree
     - splay tree
   - B-tree
+  - K-D tree, Range tree, Quad tree, Octree, interval tree, etc (we did not cover these in CS 310)
   - They are a subset of graphs.
 - Graph structures include 
   - (Un-)Directed graph
@@ -28,25 +29,39 @@
 # Internal Representations
 
 - Linked-List Based
-  - Linear: queues, stacks, linked lists, separate chaining (HashSet, HashMap), deque
+  - Linear: queues, stacks (mostly implemented as array list), doubly/singly linked lists, deque
   - Tree: BST, AVL, Red-black, splay, B-tree, M-ary tree
   - Graph: adjacency list
   
 - Array-List Based
-  - Linear: circular queues, stacks, separate chaining (HashSet, HashMap), closed hashing, 
-  - Tree: B-tree, heap (complete trees), union-find structure (disjoint sets), any tree structures (but will waste a lot of space)
+  - Linear: circular queues, stacks, closed hashing
+  - Tree: B-tree, heap (complete trees), union-find structures (disjoint sets), any tree structure (but may waste a lot of space)
   - Graph: adjacency matrix
   
- |   |Linear|Tree|Graph|
- |:-:| :-:|:-:|:-:|
- |Linked-list| | | |
- |Array-list| | | |
+- Hybrid
+  - separate chaining (HashSet, HashMap)
+  
 
 # Foundamental Operations
 
-- Linear: add, remove, find, access, sort, merge
-- Tree: add, remove, find, balance (ensuring a bound on the tree height), reducing tree to linear structures (traversal, sort), merge
-- Graph: reducing graph to tree structures (MST, DFS, BFS, Shortest path tree, Spanning tree...), add/remove edges/vretices, merge (trivial), no sorting unless the graph is a DAG (so called topological sort or linearization of graph). 
+- Linear: 
+  - add, remove
+  - find, access
+  - sort 
+  - merge
+  - Need to consider if the linear structure is sorted vs unordered 
+- Tree: 
+  - reducing tree to linear structures (traversal, sorting)
+  - add, remove 
+  - find, access
+  - balance (ensuring a bound on the tree height)
+  - merge 
+  - For all of these operations, you need to consider if the tree is ordered (BST, B-tree) or unordered (binary tree, union-find)
+- Graph: 
+  - reducing graph to tree structures (MST, DFS, BFS, Shortest path tree, Spanning tree...), 
+  - add/remove edges/vretices, 
+  - merge (trivial), 
+  - graph is mostly unordered so no sorting, unless the graph is a DAG (so called topological sort or linearization of graph). 
   
 ## Other Cheatsheets 
 
